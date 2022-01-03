@@ -14,8 +14,8 @@ export default {
       type: "string",
     },
     {
-      name: "detination",
-      title: "Detination",
+      name: "destination",
+      title: "Destination",
       type: "url",
     },
     {
@@ -26,16 +26,14 @@ export default {
     {
       name: "image",
       title: "Image",
-      type: "string",
+      type: "image",
       options: {
-        hotspot: {
-          hotspot: true,
-        },
+        hotspot: true,
       },
     },
     {
       name: "userId",
-      title: "UserID",
+      title: "UserId",
       type: "string",
     },
     {
